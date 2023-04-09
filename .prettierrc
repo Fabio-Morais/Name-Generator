@@ -1,0 +1,8 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "printWidth": 120,
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]", "@chakra-ui", "react*", "@/"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
