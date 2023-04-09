@@ -11,7 +11,7 @@ const DatasetCard = (props: Props) => {
   return (
     <Card variant={'elevated'} p={5}>
       <CardBody>
-        <Text style={{ textAlign: 'center', fontWeight: 'bold' }} fontSize="3xl">
+        <Text style={{ textAlign: 'center', fontWeight: 'bold' }} fontSize="3xl" data-testid={'name'}>
           {props.name}
         </Text>
       </CardBody>
